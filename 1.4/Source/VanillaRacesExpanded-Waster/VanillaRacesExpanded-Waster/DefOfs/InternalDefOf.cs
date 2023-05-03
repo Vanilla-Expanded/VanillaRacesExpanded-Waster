@@ -16,6 +16,15 @@ namespace VanillaRacesExpandedWaster
         public static GeneDef VREW_PollutionRage;
         public static GeneDef VREW_PollutionSustenance;
 
+        public static GeneDef VRE_Instability_Nominal;
+        public static GeneDef Instability_Mild;
+        public static GeneDef Instability_Major;
+        public static GeneDef VRE_Instability_Extreme;
+
+        public static XenotypeDef Waster;
+
+
+
 
     }
 }
