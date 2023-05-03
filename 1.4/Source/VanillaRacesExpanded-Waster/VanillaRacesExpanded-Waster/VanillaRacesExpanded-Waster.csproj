@@ -295,11 +295,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Gene Classes\Gene_Randomizer.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="HediffComps\HediffCompToxAbsorption.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_ToxAbsorption.cs" />
+    <Compile Include="Hediffs\NonRemovableHediff.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

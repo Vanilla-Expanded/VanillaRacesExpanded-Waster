@@ -11,7 +11,11 @@ namespace VanillaRacesExpandedWaster
     [DefOf]
     public static class InternalDefOf
     {
+        public static GeneDef VREW_PollutionRush;
+        public static GeneDef VREW_PollutionRegeneration;
+        public static GeneDef VREW_PollutionRage;
+        public static GeneDef VREW_PollutionSustenance;
 
-       
+
     }
 }

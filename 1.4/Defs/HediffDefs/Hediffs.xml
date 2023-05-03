@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>VRE_ToxAbsorption</defName>
+		<label>tox absorption</label>
+		<description>Directly absorbing toxic gases through the skin, increasing the speed at which pollution is satisfied for various pollution-related genes.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_ToxAbsorption">
+				
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionRegeneration</defName>
+		<label>pollution regeneration</label>
+		<description>Benefitting from accelerated natural healing in polluted environments. As pollution levels increase, regenerative abilities are boosted, recovering from injuries and restoring vitality more rapidly.</description>
+		<descriptionShort>This creature is regenerating by exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Pollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>
+				
+				<statFactors>
+					<InjuryHealingFactor>1.2</InjuryHealingFactor>
+				</statFactors>
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<InjuryHealingFactor>2.5</InjuryHealingFactor>
+				</statFactors>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<InjuryHealingFactor>4</InjuryHealingFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>
