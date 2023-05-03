@@ -68,7 +68,7 @@
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
-			
+				<hediffToWholeBody>VRE_PollutionRage</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -83,7 +83,7 @@
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
-			
+				<hediffToWholeBody>VRE_PollutionSustenance</hediffToWholeBody>
 			</li>
 		</modExtensions>
 	</GeneDef>

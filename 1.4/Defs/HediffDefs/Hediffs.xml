@@ -66,4 +66,102 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>VRE_PollutionRage</defName>
+		<label>pollution rage</label>
+		<description>Experiencing amplified close-quarters damage output in polluted environments. As pollution levels escalate, ferocity and strength intensify, allowing to inflict greater harm on adversaries.</description>
+		<descriptionShort>This creature is raging by exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Pollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>
+				
+				<statFactors>
+					<MeleeDamageFactor>1.1</MeleeDamageFactor>
+				</statFactors>
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<MeleeDamageFactor>1.15</MeleeDamageFactor>
+				</statFactors>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<MeleeDamageFactor>1.2</MeleeDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionSustenance</defName>
+		<label>pollution sustenance</label>
+		<description>Deriving nutrition from pollution, slowing down hunger rate.</description>
+		<descriptionShort>This creature is deriving nutrition from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Pollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>			
+				<hungerRateFactorOffset>0.85</hungerRateFactorOffset>
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<hungerRateFactorOffset>0.7</hungerRateFactorOffset>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<hungerRateFactorOffset>0.55</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>
