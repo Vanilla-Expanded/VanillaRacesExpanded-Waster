@@ -87,4 +87,109 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+	<GeneDef ParentName="VREW_MutationBase">
+		<defName>VREW_PollutionCognition</defName>
+		<label>pollution cognition</label>
+		<description>Carriers of this gene exhibit enhanced focus and learning abilities in polluted environments. As pollution levels rise, their capacity to acquire new skills and retain knowledge expands.</description>
+		<iconPath>UI/Icons/Genes/Gene_PollutionCognition</iconPath>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
+				<hediffToWholeBody>VRE_PollutionCognition</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="VREW_MutationBase">
+		<defName>VREW_PollutionNumbness</defName>
+		<label>pollution numbness</label>
+		<description>Carriers of this gene experience reduced pain sensations in polluted environments as pollution levels increase.</description>
+		<iconPath>UI/Icons/Genes/Gene_PollutionNumbness</iconPath>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
+				<hediffToWholeBody>VRE_PollutionNumbness</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="VREW_MutationBase">
+		<defName>VREW_PollutionHappiness</defName>
+		<label>pollution happiness</label>
+		<description>Carriers of this gene enjoy heightened levels of happiness in polluted environments, experiencing increased joy and contentment as pollution levels rise, making them thrive in otherwise gloomy conditions.</description>
+		<iconPath>UI/Icons/Genes/Gene_PollutionHappiness</iconPath>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
+				<hediffToWholeBody>VRE_PollutionHappiness</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="VREW_MutationBase">
+		<defName>VREW_PollutionProductivity</defName>
+		<label>pollution productivity</label>
+		<description>Carriers of this gene find their work speed significantly improved in polluted environments, allowing them to complete tasks more efficiently and swiftly as pollution levels increase.</description>
+		<iconPath>UI/Icons/Genes/Gene_PollutionProductivity</iconPath>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
+				<hediffToWholeBody>VRE_PollutionProductivity</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="VREW_MutationBase">
+		<defName>VREW_PollutionPsySensitivity</defName>
+		<label>pollution psy-sensitivity</label>
+		<description>Carriers of this gene experience amplified psychic sensitivity in polluted environments, leading to stronger intuition and telepathic skills as pollution levels increase.</description>
+		<iconPath>UI/Icons/Genes/Gene_PollutionPsySensitivity</iconPath>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
+				<hediffToWholeBody>VRE_PollutionPsySensitivity</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="VREW_MutationBase">
+		<defName>VREW_PollutionFertility</defName>
+		<label>pollution fertility</label>
+		<description>Carriers of this gene have a boost to fertility in polluted environments, allowing for increased offspring production and faster lineage expansion in hazardous conditions.</description>
+		<iconPath>UI/Icons/Genes/Gene_PollutionFertility</iconPath>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
+				<hediffToWholeBody>VRE_PollutionFertility</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="VREW_MutationBase">
+		<defName>VREW_PollutionAccuracy</defName>
+		<label>pollution accuracy</label>
+		<description>Carriers of this gene achieve improved steadiness and precision in polluted environments. As pollution levels rise, their aiming capabilities are enhanced, allowing them to target and strike with remarkable accuracy.</description>
+		<iconPath>UI/Icons/Genes/Gene_PollutionAccuracy</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
+				<hediffToWholeBody>VRE_PollutionAccuracy</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
 </Defs>

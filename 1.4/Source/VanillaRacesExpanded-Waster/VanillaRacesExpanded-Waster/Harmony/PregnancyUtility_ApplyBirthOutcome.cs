@@ -11,20 +11,37 @@ using HarmonyLib;
 
 namespace VanillaRacesExpandedWaster
 {
-   /* [HarmonyPatch(typeof(PregnancyUtility), "ApplyBirthOutcome")]
+    [HarmonyPatch(typeof(PregnancyUtility))]
+    [HarmonyPatch(nameof(PregnancyUtility.ApplyBirthOutcome))]
     public static class VanillaRacesExpandedWaster_PregnancyUtility_ApplyBirthOutcome_Patch
     {
         [HarmonyPostfix]
-        public static void IncreaseInstability(List<GeneDef> genes, Pawn geneticMother, Pawn father)
+        public static void IncreaseInstability(OutcomeChance outcome, float quality, Precept_Ritual ritual, List<GeneDef> genes, Pawn geneticMother, Thing birtherThing, Pawn father , Pawn doctor, LordJob_Ritual lordJobRitual, RitualRoleAssignments assignments, Thing __result)
         {
-            if (geneticMother.genes?.Xenotype == InternalDefOf.Waster || father?.genes?.Xenotype == InternalDefOf.Waster)
-            {
-                if (genes.Contains(InternalDefOf.VRE_Instability_Nominal))
+            Pawn pawn = __result as Pawn;
+            if (pawn != null) {
+                if (geneticMother.genes?.Xenotype == InternalDefOf.Waster || father?.genes?.Xenotype == InternalDefOf.Waster)
                 {
+                    if (genes.Contains(InternalDefOf.VRE_Instability_Nominal))
+                    {
+                        pawn.genes.RemoveGene(pawn.genes.GetGene(InternalDefOf.VRE_Instability_Nominal));
+                        pawn.genes.AddGene(InternalDefOf.Instability_Mild,false);
+                    }else if (genes.Contains(InternalDefOf.Instability_Mild))
+                    {
+                        pawn.genes.RemoveGene(pawn.genes.GetGene(InternalDefOf.Instability_Mild));
+                        pawn.genes.AddGene(InternalDefOf.Instability_Major, false);
+                    }
+                    else if (genes.Contains(InternalDefOf.Instability_Major))
+                    {
+                        pawn.genes.RemoveGene(pawn.genes.GetGene(InternalDefOf.Instability_Major));
+                        pawn.genes.AddGene(InternalDefOf.VRE_Instability_Extreme, false);
+                    }
                     
+
                 }
 
             }
+            
         }
-    }*/
+    }
 }

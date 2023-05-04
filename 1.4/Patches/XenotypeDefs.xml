@@ -13,7 +13,7 @@
 		<xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
 		<value>
             <li>VRE_ToxAbsorption</li>
-			
+			<li>VRE_Instability_Nominal</li>
 		</value>
 	</Operation>
 	

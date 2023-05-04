@@ -10,7 +10,7 @@
 		<biostatCpx>1</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<customEffectDescriptions>
-			<li>Pawns with this gene benefit from inhaling tox gas. If the pawn is standing on a cell with tox gas, Every 60 ticks (1 sec), pawn with the gene will increase in stimulus severity of any Pollution genes by additional +2.22%. This is separate from the increase based on standing on polluted terrain.</li>
+			<li>Pawns with this gene benefit from inhaling tox gas. If the pawn is standing on a cell with tox gas, Every 60 ticks (1 sec), pawn with the gene will increase in stimulus severity of any Pollution genes by additional +2.22%. This is separate from the increase based on standing on polluted terrain when having the pollution stimulus mutation / gene.</li>
 		</customEffectDescriptions>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

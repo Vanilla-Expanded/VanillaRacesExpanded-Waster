@@ -6,19 +6,22 @@ using UnityEngine;
 using Verse;
 using RimWorld;
 using HarmonyLib;
+using System.Reflection;
 
 namespace VanillaRacesExpandedWaster
 {
 
-    public class HarmonyInstance : Mod
+    //Setting the Harmony instance
+    [StaticConstructorOnStartup]
+    public class Main
     {
-        public HarmonyInstance(ModContentPack content) : base(content)
+        static Main()
         {
-            harmonyInstance = new Harmony("OskarPotocki.VREWaster");
-            harmonyInstance.PatchAll();
+            var harmony = new Harmony("com.VEWasters");
+            harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
-        public static Harmony harmonyInstance;
+
     }
 
 }

@@ -294,8 +294,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comps\CompGasProducer.cs" />
+    <Compile Include="Comps\CompGreenFireOverlay.cs" />
+    <Compile Include="Comps\Properties\CompProperties_GasProducer.cs" />
+    <Compile Include="Comps\Properties\CompProperties_GreenFireOverlay.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Gene Classes\Gene_Randomizer.cs" />
+    <Compile Include="Graphics\Graphic_Flicker_Green.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\PregnancyUtility_ApplyBirthOutcome.cs" />
     <Compile Include="HediffComps\HediffCompToxAbsorption.cs" />

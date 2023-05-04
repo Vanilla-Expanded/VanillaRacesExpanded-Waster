@@ -12,7 +12,9 @@ namespace VanillaRacesExpandedWaster
     public class Gene_Randomizer : Gene
     {
         public List<GeneDef> mutationGenes = new List<GeneDef>() { InternalDefOf.VREW_PollutionRage,InternalDefOf.VREW_PollutionSustenance,
-        InternalDefOf.VREW_PollutionRegeneration,InternalDefOf.VREW_PollutionRush};
+        InternalDefOf.VREW_PollutionRegeneration,InternalDefOf.VREW_PollutionRush,InternalDefOf.VREW_PollutionCognition,InternalDefOf.VREW_PollutionNumbness
+,InternalDefOf.VREW_PollutionHappiness,InternalDefOf.VREW_PollutionProductivity,InternalDefOf.VREW_PollutionPsySensitivity,InternalDefOf.VREW_PollutionFertility,InternalDefOf.VREW_PollutionAccuracy
+    };
 
         public override void PostAdd()
         {
