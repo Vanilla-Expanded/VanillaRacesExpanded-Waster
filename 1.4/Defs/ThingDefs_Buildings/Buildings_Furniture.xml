@@ -33,7 +33,7 @@
 		</researchPrerequisites>
 		<selectable>true</selectable>
 		<costList>
-			<Steel>75</Steel>
+			<Steel>45</Steel>
 		</costList>
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
