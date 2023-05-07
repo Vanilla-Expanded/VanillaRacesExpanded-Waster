@@ -22,11 +22,7 @@ namespace VanillaRacesExpandedWaster
         public static GeneDef VREW_PollutionPsySensitivity;
         public static GeneDef VREW_PollutionFertility;
         public static GeneDef VREW_PollutionAccuracy;
-
-
-
-
-
+        public static GeneDef VRE_Instability_Progressive;
         public static GeneDef VRE_Instability_Nominal;
         public static GeneDef Instability_Mild;
         public static GeneDef Instability_Major;

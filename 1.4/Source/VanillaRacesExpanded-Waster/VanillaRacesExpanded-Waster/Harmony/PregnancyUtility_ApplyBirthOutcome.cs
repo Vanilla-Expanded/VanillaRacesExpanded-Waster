@@ -20,7 +20,7 @@ namespace VanillaRacesExpandedWaster
         {
             Pawn pawn = __result as Pawn;
             if (pawn != null) {
-                if (geneticMother.genes?.Xenotype == InternalDefOf.Waster || father?.genes?.Xenotype == InternalDefOf.Waster)
+                if (genes.Contains(InternalDefOf.VRE_Instability_Progressive))
                 {
                     if (genes.Contains(InternalDefOf.VRE_Instability_Nominal))
                     {
@@ -36,7 +36,12 @@ namespace VanillaRacesExpandedWaster
                         pawn.genes.RemoveGene(pawn.genes.GetGene(InternalDefOf.Instability_Major));
                         pawn.genes.AddGene(InternalDefOf.VRE_Instability_Extreme, false);
                     }
-                    
+                    else 
+                    {
+                       
+                        pawn.genes.AddGene(InternalDefOf.VRE_Instability_Nominal, false);
+                    }
+
 
                 }
 

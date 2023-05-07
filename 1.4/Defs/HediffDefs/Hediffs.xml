@@ -28,7 +28,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -81,7 +81,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -133,7 +133,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -178,7 +178,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -229,7 +229,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -274,7 +274,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -319,7 +319,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -370,7 +370,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -421,7 +421,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>
@@ -472,7 +472,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.002</initialSeverity>
 		<comps>
-			<li Class="HediffCompProperties_Pollution">
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
 				<pollutedSeverity>0.0333</pollutedSeverity>
 				<unpollutedSeverity>-0.003</unpollutedSeverity>
 				<interval>60</interval>

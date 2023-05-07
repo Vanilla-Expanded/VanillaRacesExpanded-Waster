@@ -303,7 +303,9 @@
     <Compile Include="Graphics\Graphic_Flicker_Green.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\PregnancyUtility_ApplyBirthOutcome.cs" />
+    <Compile Include="HediffComps\HediffCompGeneDependentPollution.cs" />
     <Compile Include="HediffComps\HediffCompToxAbsorption.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_GeneDependentPollution.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_ToxAbsorption.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
