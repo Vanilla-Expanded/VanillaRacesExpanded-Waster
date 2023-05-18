@@ -43,9 +43,10 @@
 			<ImmunityGainSpeed>0.85</ImmunityGainSpeed>
 		</statFactors>
 	</GeneDef>
-	<GeneDef ParentName="CellInstabilityBase">
+	<GeneDef>
 		<defName>VRE_Instability_Progressive</defName>
 		<label>progressive cell instability</label>
+		<displayCategory>Miscellaneous</displayCategory>
 		<description>Carriers of this gene have their genetic code becoming progressively more unstable with every new generation.</description>
 		<iconPath>UI/Icons/Genes/Gene_ProgressiveCellInstability</iconPath>
 		<displayOrderInCategory>136</displayOrderInCategory>
