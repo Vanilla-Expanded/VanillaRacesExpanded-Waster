@@ -149,18 +149,18 @@
 			<li>
 				<label>minor</label>
 				<minSeverity>0.02</minSeverity>			
-				<hungerRateFactorOffset>0.85</hungerRateFactorOffset>
+				<hungerRateFactorOffset>-0.15</hungerRateFactorOffset>
 				
 			</li>
 			<li>
 				<label>moderate</label>
 				<minSeverity>0.20</minSeverity>
-				<hungerRateFactorOffset>0.7</hungerRateFactorOffset>
+				<hungerRateFactorOffset>-0.3</hungerRateFactorOffset>
 			</li>
 			<li>
 				<label>extreme</label>
 				<minSeverity>0.50</minSeverity>
-				<hungerRateFactorOffset>0.55</hungerRateFactorOffset>
+				<hungerRateFactorOffset>-0.45</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>
