@@ -8,7 +8,7 @@ namespace VanillaRacesExpandedWaster
         public override void CompPostTick(ref float severityAdjustment)
         {
             Pawn pawn = parent.pawn;
-            if (pawn.genes?.HasGene(InternalDefOf.VREW_PollutionRush) == true) {
+            if (pawn.genes?.HasGene(InternalDefOf.VRE_ToxAbsorption) == true) {
                 if (pawn.IsHashIntervalTick(Props.interval))
                 {
                     if (pawn.Spawned && pawn.Position.IsPolluted(pawn.Map))

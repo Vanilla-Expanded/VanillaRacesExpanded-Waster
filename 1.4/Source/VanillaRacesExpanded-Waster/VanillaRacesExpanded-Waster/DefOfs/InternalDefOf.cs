@@ -27,6 +27,7 @@ namespace VanillaRacesExpandedWaster
         public static GeneDef Instability_Mild;
         public static GeneDef Instability_Major;
         public static GeneDef VRE_Instability_Extreme;
+        public static GeneDef VRE_ToxAbsorption;
 
         public static XenotypeDef Waster;
 

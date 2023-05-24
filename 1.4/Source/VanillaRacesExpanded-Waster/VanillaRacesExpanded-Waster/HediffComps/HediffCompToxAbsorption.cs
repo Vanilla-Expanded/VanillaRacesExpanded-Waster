@@ -49,7 +49,7 @@ namespace VanillaRacesExpandedWaster
                         {
                             hediff.Severity += 0.022f;
                         }
-                        else hediff.Severity -= 0.022f;
+                      
 
                     }
                     HediffCompGeneDependentPollution comp2 = hediff.TryGetComp<HediffCompGeneDependentPollution>();
@@ -59,7 +59,7 @@ namespace VanillaRacesExpandedWaster
                         {
                             hediff.Severity += 0.022f;
                         }
-                        else hediff.Severity -= 0.022f;
+                       
 
                     }
 
