@@ -5,6 +5,7 @@
 		<label>tox absorption</label>
 		<description>Directly absorbing toxic gases through the skin, increasing the speed at which pollution is satisfied for various pollution-related genes.</description>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
@@ -20,6 +21,7 @@
 		<description>Benefitting from accelerated natural healing in polluted environments. As pollution levels increase, regenerative abilities are boosted, recovering from injuries and restoring vitality more rapidly.</description>
 		<descriptionShort>This creature is regenerating by exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -73,6 +75,7 @@
 		<description>Experiencing amplified close-quarters damage output in polluted environments. As pollution levels escalate, ferocity and strength intensify, allowing to inflict greater harm on adversaries.</description>
 		<descriptionShort>This creature is raging by exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -125,6 +128,7 @@
 		<description>Deriving nutrition from pollution, slowing down hunger rate.</description>
 		<descriptionShort>This creature is deriving nutrition from their exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -170,6 +174,7 @@
 		<description>Exhibiting enhanced focus and learning abilities in polluted environments. As pollution levels rise, capacity to acquire new skills and retain knowledge will expand.</description>
 		<descriptionShort>This creature has enhanced learning from their exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -221,6 +226,7 @@
 		<description>Exhibiting reduced pain sensations in polluted environments as pollution levels increase.</description>
 		<descriptionShort>This creature has reduced pain sensations from their exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -266,6 +272,7 @@
 		<description>Enjoying heightened levels of happiness in polluted environments, experiencing increased joy and contentment as pollution levels rise.</description>
 		<descriptionShort>This creature has increased mood from their exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -311,6 +318,7 @@
 		<description>Having work speed significantly improved in polluted environments and completing tasks more efficiently and swiftly as pollution levels increase.</description>
 		<descriptionShort>This creature has enhanced productivity from their exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -362,6 +370,7 @@
 		<description>Experiencing amplified psychic sensitivity in polluted environments, leading to stronger intuition and telepathic skills as pollution levels increase.</description>
 		<descriptionShort>This creature has enhanced psychic sensitivity from their exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -413,6 +422,7 @@
 		<description>Experiencing a boost to fertility in polluted environments, allowing for increased offspring production and faster lineage expansion in hazardous conditions.</description>
 		<descriptionShort>This creature has enhanced fertility from their exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
@@ -464,6 +474,7 @@
 		<description>Getting improved steadiness and precision in polluted environments.</description>
 		<descriptionShort>This creature has improved accuracy from their exposure to pollution.</descriptionShort>
 		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
 		<isBad>false</isBad>
 		<makesSickThought>false</makesSickThought>
