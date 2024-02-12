@@ -20,18 +20,18 @@ namespace VanillaRacesExpandedWaster
         {
             Pawn pawn = __result as Pawn;
             if (pawn != null) {
-                if (genes.Contains(InternalDefOf.VRE_Instability_Progressive))
+                if (genes?.Contains(InternalDefOf.VRE_Instability_Progressive)==true)
                 {
-                    if (genes.Contains(InternalDefOf.VRE_Instability_Nominal))
+                    if (genes?.Contains(InternalDefOf.VRE_Instability_Nominal) == true)
                     {
                         pawn.genes.RemoveGene(pawn.genes.GetGene(InternalDefOf.VRE_Instability_Nominal));
                         pawn.genes.AddGene(InternalDefOf.Instability_Mild,false);
-                    }else if (genes.Contains(InternalDefOf.Instability_Mild))
+                    }else if (genes?.Contains(InternalDefOf.Instability_Mild) == true)
                     {
                         pawn.genes.RemoveGene(pawn.genes.GetGene(InternalDefOf.Instability_Mild));
                         pawn.genes.AddGene(InternalDefOf.Instability_Major, false);
                     }
-                    else if (genes.Contains(InternalDefOf.Instability_Major))
+                    else if (genes?.Contains(InternalDefOf.Instability_Major) == true)
                     {
                         pawn.genes.RemoveGene(pawn.genes.GetGene(InternalDefOf.Instability_Major));
                         pawn.genes.AddGene(InternalDefOf.VRE_Instability_Extreme, false);
