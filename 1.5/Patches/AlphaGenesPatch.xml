@@ -69,8 +69,8 @@
 								<Hulk>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Hulk</Hulk>
 								<Fat>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Fat</Fat>
 								<Thin>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Thin>
-								<Child>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Child>
-								<Baby>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Thin</Baby>
+								<Child>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Child</Child>
+								<Baby>Things/Pawn/Humanlike/Bodies/AG_GauntBody/AG_GauntBody_Child</Baby>
 							</bodyTypeGraphicPaths>
 						</FurDef>
 					</value>
