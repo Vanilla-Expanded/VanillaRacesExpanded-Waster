@@ -7,7 +7,8 @@ namespace VanillaRacesExpandedWaster
 
         public float unpollutedSeverity;
 
-        public int interval = 1;
+        // 15 recommended as minimum due to VTR
+        public int interval = 15;
 
         public HediffCompProperties_GeneDependentPollution()
         {

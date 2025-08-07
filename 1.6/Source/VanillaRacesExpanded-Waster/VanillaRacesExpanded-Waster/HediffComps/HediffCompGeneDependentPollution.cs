@@ -5,11 +5,11 @@ namespace VanillaRacesExpandedWaster
     {
         public HediffCompProperties_GeneDependentPollution Props => (HediffCompProperties_GeneDependentPollution)props;
 
-        public override void CompPostTick(ref float severityAdjustment)
+        public override void CompPostTickInterval(ref float severityAdjustment, int delta)
         {
             Pawn pawn = parent.pawn;
-            if (pawn.genes?.HasGene(InternalDefOf.VRE_ToxAbsorption) == true) {
-                if (pawn.IsHashIntervalTick(Props.interval))
+            if (pawn.genes?.HasActiveGene(InternalDefOf.VRE_ToxAbsorption) == true) {
+                if (pawn.IsHashIntervalTick(Props.interval, delta))
                 {
                     if (pawn.Spawned && pawn.Position.IsPolluted(pawn.Map))
                     {

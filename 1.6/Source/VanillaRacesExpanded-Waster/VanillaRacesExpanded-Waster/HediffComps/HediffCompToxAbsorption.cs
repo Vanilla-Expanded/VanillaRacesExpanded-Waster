@@ -12,29 +12,17 @@ namespace VanillaRacesExpandedWaster
     {
         private HediffCompProperties_ToxAbsorption Props => (HediffCompProperties_ToxAbsorption)props;
 
-        public int tickCounter = 0;
         public const int tickInterval = 60;
 
-        public override void CompExposeData()
+        public override void CompPostTickInterval(ref float severityAdjustment, int delta)
         {
-            base.CompExposeData();
+            base.CompPostTickInterval(ref severityAdjustment, delta);
 
-            Scribe_Values.Look(ref this.tickCounter, nameof(this.tickCounter));
-
-        }
-
-
-
-        public override void CompPostTick(ref float severityAdjustment)
-        {
-            base.CompPostTick(ref severityAdjustment);
-
-            tickCounter++;
-            if (tickCounter > tickInterval && parent.pawn.Map != null)
+            if (parent.pawn.IsHashIntervalTick(tickInterval, delta) && parent.pawn.Map != null)
             {
                 if (parent.pawn.Position.AnyGas(parent.pawn.Map, GasType.ToxGas))
                 {
-                    if (!parent.pawn.health.hediffSet.HasHediff(HediffDefOf.PollutionStimulus) && parent.pawn.genes?.HasGene(InternalDefOf.VREW_PollutionRush) == true)
+                    if (!parent.pawn.health.hediffSet.HasHediff(HediffDefOf.PollutionStimulus) && parent.pawn.genes?.HasActiveGene(InternalDefOf.VREW_PollutionRush) == true)
                     {
                         parent.pawn.health.AddHediff(HediffDefOf.PollutionStimulus);
                     }
@@ -69,8 +57,6 @@ namespace VanillaRacesExpandedWaster
 
 
 
-
-                tickCounter = 0;
             }
 
 

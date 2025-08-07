@@ -20,16 +20,16 @@ namespace VanillaRacesExpandedWaster
             refuelableComp = parent.GetComp<CompRefuelable>();
         }
 
-        public override void CompTick()
+        public override void CompTickInterval(int delta)
         {
-            if (parent.IsHashIntervalTick(500)) {
+            if (parent.IsHashIntervalTick(500, delta)) {
                 if ((refuelableComp != null && refuelableComp.HasFuel))
                 {
                     GasUtility.AddGas(parent.PositionHeld, parent.MapHeld, GasType.ToxGas, 300);
                 }
 
             }
-            if (parent.IsHashIntervalTick(60000))
+            if (parent.IsHashIntervalTick(60000, delta))
             {
                 if ((refuelableComp != null && refuelableComp.HasFuel))
                 {

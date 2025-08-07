@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <LangVersion>default</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
@@ -307,6 +308,7 @@
     <Compile Include="HediffComps\HediffCompToxAbsorption.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_GeneDependentPollution.cs" />
     <Compile Include="HediffComps\Properties\HediffCompProperties_ToxAbsorption.cs" />
+    <Compile Include="ModExtensions\PollutionMutationGene.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

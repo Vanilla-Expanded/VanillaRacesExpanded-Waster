@@ -20,7 +20,9 @@
 		<displayCategory>VREW_Mutations</displayCategory>
 		<canGenerateInGeneSet>true</canGenerateInGeneSet>
 		<selectionWeight>0</selectionWeight>
-		
+		<modExtensions>
+			<li Class="VanillaRacesExpandedWaster.PollutionMutationGene" />
+		</modExtensions>
 	</GeneDef>
 	<GeneDef ParentName="VREW_MutationBase">
 		<defName>VREW_PollutionRush</defName>
@@ -37,6 +39,7 @@
 		<modExtensions>
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			
 			</li>
 		</modExtensions>
@@ -53,6 +56,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionRegeneration</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 				
 			</li>
 		</modExtensions>
@@ -69,6 +73,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionRage</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -84,6 +89,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionSustenance</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -99,6 +105,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionCognition</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -114,6 +121,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionNumbness</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -129,6 +137,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionHappiness</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -144,6 +153,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionProductivity</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -159,6 +169,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionPsySensitivity</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -174,6 +185,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionFertility</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
@@ -189,6 +201,7 @@
 			<li Class="VEF.Genes.GeneExtension">
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hediffToWholeBody>VRE_PollutionAccuracy</hediffToWholeBody>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
