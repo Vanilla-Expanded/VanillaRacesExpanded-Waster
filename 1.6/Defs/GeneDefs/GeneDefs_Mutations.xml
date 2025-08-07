@@ -13,6 +13,7 @@
 				<backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathXenogenes>
 				<backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_PollutionMutation</backgroundPathEndogenes>
 				<hideGene>true</hideGene>
+				<disableGeneExtraction>true</disableGeneExtraction>
 			</li>
 		</modExtensions>
 	</GeneDef>
