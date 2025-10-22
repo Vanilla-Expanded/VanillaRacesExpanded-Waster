@@ -19,7 +19,7 @@ namespace VanillaRacesExpandedWaster
         public static void IncreaseInstability(RitualOutcomePossibility outcome, float quality, Precept_Ritual ritual, List<GeneDef> genes, Pawn geneticMother, Thing birtherThing, Pawn father , Pawn doctor, LordJob_Ritual lordJobRitual, RitualRoleAssignments assignments, Thing __result)
         {
             Pawn pawn = __result as Pawn;
-            if (pawn != null) {
+            if (pawn?.genes != null) {
                 if (genes.Contains(InternalDefOf.VRE_Instability_Progressive))
                 {
                     if (genes.Contains(InternalDefOf.VRE_Instability_Nominal))
